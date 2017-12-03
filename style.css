@@ -1,0 +1,30 @@
+.InfiniteProgressBar {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	position: relative;
+}
+
+.InfiniteProgressBar .drop-shadow, .progress-background {
+	width: 400px;
+	position: absolute;
+	height: 20px;
+}
+	
+.InfiniteProgressBar .drop-shadow {
+	background-color: #888;
+	top: 4px;
+	left: 4px;
+	filter: blur(4px);
+}
+
+.InfiniteProgressBar .progress-background {
+	left: 0;
+	border: 1px solid #888;
+}
+
+.InfiniteProgressBar .progress-background .progress-indicator {
+	height: 20px;
+}
+
